@@ -1,5 +1,5 @@
 
-;note: For some reason _printf/_main doesnt work on my system, but main/printf does so in case this code doesnt work, the .asm file and .exe built from it is located here: https://drive.google.com/drive/folders/1JORDBL3tvGANI16VJBu18LsOwb2IitS4?usp=sharing
+;note: For some reason _printf/_main doesnt work on my system, but main/printf does
 section .data
     signal_cnt db "The signal has %d samples.", 13,10,0
     signal dd -1, 3, 4, 0, 9, -8, -2, 0x80000000
